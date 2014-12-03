@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>MIUI-Calendar</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+<body>
+	<div id="calendar">
+		<div id="calendar-header">
+			<div id="header-left">
+				<div id="month"></div>
+				<div id="year-day">
+					<div id="day"></div>
+					<div id="year"></div>
+				</div>
+			</div>
+			<div id="header-right">
+				<div id="btns">
+				 <a href="javascript:" id="btn-last-month"><b><<</b></a>
+				 <a href="javascript:" id="btn-today"><b>今</b></a>
+				 <a href="javascript:" id="btn-next-month"><b>>></b></a>
+				</div>
+			</div>
+		</div>
+		<div id="days">
+			<span>日</span>
+			<span>一</span>
+			<span>二</span>
+			<span>三</span>
+			<span>四</span>
+			<span>五</span>
+			<span class="right-align">六</span>
+		</div>
+		<table id="dates">
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>			
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>			
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>		
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>			
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		<div id="weather">
+			<h3><span id="lunar-month"></span><span id="lunar-date"></span></h3>
+			<div id="detail-weather">
+				<span id="city"></span><br/>
+				<span id="weather-des"></span>
+				<img id="dayimg"/>
+				<img id="nightimg"/>
+				</br>
+				<span id="temp"></span>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/lunar.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="http://pv.sohu.com/cityjson"></script>
+	<script type="text/javascript" src="js/citycode.js"></script>
+	<script type="text/javascript" src="js/weather.js"></script>
+</body>
+</html>

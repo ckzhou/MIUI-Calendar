@@ -1,0 +1,170 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+a{
+
+}
+#calendar{
+	width:360px;
+	margin:0 auto;
+	border:1px solid #4b4b4b;
+	border-radius:5px;
+}
+#calendar-header{
+	height:50px;
+	border-radius:5px 5px 0 0;
+	background-color:#C12D29;
+	overflow:hidden;
+}
+#header-left{
+	float:left;
+	height:50px;
+	padding-left:27px;
+}
+#month{
+	float:left;
+	height:37px;
+	padding-top:9px;
+	color:#FFF;
+	font-size:27px;
+}
+#year-day{
+	float:left;
+	height:35px;
+	padding-top:12px;
+	color:#D9726E;
+	font-size:12px;
+	margin-left:5px;
+}
+#header-right{
+	float:right;
+	height:50px;
+	padding-right:23px;
+}
+#btns{
+	width:128px;
+	overflow:hidden;
+	border:1px solid #E1736A;
+	border-radius:15px;
+	margin-top:12px;
+}
+#btns a{
+	display:block;
+	width:40px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	float:left;
+	color:#FFF;
+}
+#btn-today{
+	border-left:1px solid #E1736A;
+	border-right:1px solid #E1736A;
+}
+#btn-month{
+	color:#EAAAA6;
+	background-color:#D3524B;
+}
+#btns a:hover{
+	color:#ff8000;
+}
+/***************************************************style of calendar-header end*********************************/
+#days{
+	overflow:hidden;
+	padding:0 25px;
+}
+#days span{
+	display:block;
+	float:left;
+	width:47px;
+	height:24px;
+	padding-left:1px;
+	line-height:24px;
+	color:#ADADAD;
+	border-bottom:2px solid #DFDFDF;
+	font-size:20px;
+}
+#days .right-align{
+	padding-left:2px;
+	width:20px;
+}
+#dates{
+	width:362px;
+	padding:0 7px 0 7px;
+}
+tr{
+	overflow:hidden;
+}
+td{
+	float:left;
+	display:block;
+	width:49px;
+	height:45px;
+	color:#4A4A4A;
+	font-size:24px;
+	text-align:center;
+	cursor:pointer;
+	position:relative;
+}
+/******************************************************style of calendar-dates end********************************/
+#weather h3{
+	height:57px;
+	line-height:57px;
+	color:#646464;
+	font-size:24px;
+	padding-left:25px;
+	border-top:1px solid #E2E2E2;
+	border-bottom:1px solid #E2E2E2;
+}
+#lunar-date{
+	margin-left:20px;
+}
+#detail-weather{
+	height:112px;
+	padding-left:25px;
+	border-bottom:1px solid #E2E2E2;
+	color:#646464;
+}
+#city,#weather-des,#temp{
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+}
+/****************************************************style  of weather end*****************************************/
+td span{
+	display:inline-block;
+	width:49px;
+	height:46px;
+	padding-top:3px;
+}
+.today{
+	background-color:#C12D29;
+	border-radius:50%;
+	color:#FFF;
+}
+td  i{
+	display:block;
+	width:40px;
+	height:10px;
+	position:absolute;
+	left:50%;
+	bottom:7px;
+	margin-left:-20px;
+	font-size:12px;
+	font-style:normal;
+	color:#B8B8B8;
+}
+i.another{
+	color:#BBBBBB;
+}
+.lunar-today{
+	color:#D9726E;
+}
+span.another{
+	color:#000;
+}
+span.last,span.next{
+	color:#868686;
+}
