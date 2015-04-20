@@ -1,1 +1,1 @@
-A calendar widget made with JavaScript.
+用JS做的一个日历
